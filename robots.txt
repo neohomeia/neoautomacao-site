@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neoautomacao.com.br/sitemap.xml

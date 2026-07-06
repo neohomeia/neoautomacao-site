@@ -1,0 +1,1 @@
+console.log("NeoHome Automação v2 carregado");

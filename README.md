@@ -1,1 +1,1 @@
-# neoautomacao-site
+NeoHome Automação - versão 2.0 com WhatsApp e Instagram em destaque.
