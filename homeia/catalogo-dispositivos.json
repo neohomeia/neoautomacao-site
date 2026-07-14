@@ -1,0 +1,68 @@
+[
+  {
+    "marca": "Tuya / Smart Life",
+    "modelo": "a confirmar",
+    "tipo": "iluminacao",
+    "protocolos": ["Wi-Fi", "Zigbee"],
+    "aplicativo": "Smart Life ou Tuya",
+    "hub": "depende do dispositivo",
+    "integracoes_verificadas": [],
+    "status": "nao confirmado",
+    "observacao": "Usar como familia de produtos; confirmar marca, modelo e regiao antes de prometer uma cena."
+  },
+  {
+    "marca": "Intelbras",
+    "modelo": "a confirmar",
+    "tipo": "seguranca",
+    "protocolos": ["Wi-Fi", "Bluetooth", "proprietario"],
+    "aplicativo": "a confirmar",
+    "hub": "a confirmar",
+    "integracoes_verificadas": [],
+    "status": "nao confirmado",
+    "observacao": "Cadastrar o modelo exato da fechadura, camera ou sensor durante a visita."
+  },
+  {
+    "marca": "Philips Hue",
+    "modelo": "a confirmar",
+    "tipo": "iluminacao",
+    "protocolos": ["Zigbee", "Bluetooth"],
+    "aplicativo": "Hue",
+    "hub": "Bridge ou Bluetooth, conforme o produto",
+    "integracoes_verificadas": [],
+    "status": "nao confirmado",
+    "observacao": "Confirmar se a cena sera local, via Bridge ou via assistente."
+  },
+  {
+    "marca": "Samsung",
+    "modelo": "a confirmar",
+    "tipo": "climatizacao",
+    "protocolos": ["Wi-Fi", "infravermelho"],
+    "aplicativo": "a confirmar",
+    "hub": "a confirmar",
+    "integracoes_verificadas": [],
+    "status": "nao confirmado",
+    "observacao": "Nao assumir que o ar-condicionado informa estado real quando acionado por infravermelho."
+  },
+  {
+    "marca": "Google",
+    "modelo": "Google Home",
+    "tipo": "assistente",
+    "protocolos": ["Wi-Fi"],
+    "aplicativo": "Google Home",
+    "hub": "nao se aplica",
+    "integracoes_verificadas": [],
+    "status": "nao confirmado",
+    "observacao": "A integracao depende do fabricante do dispositivo e da conta usada."
+  },
+  {
+    "marca": "Amazon",
+    "modelo": "Alexa",
+    "tipo": "assistente",
+    "protocolos": ["Wi-Fi"],
+    "aplicativo": "Alexa",
+    "hub": "Echo compativel, conforme o caso",
+    "integracoes_verificadas": [],
+    "status": "nao confirmado",
+    "observacao": "Cadastrar a skill ou integracao exata e testar o evento antes de oferecer ao cliente."
+  }
+]
