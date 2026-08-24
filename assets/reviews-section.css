@@ -268,3 +268,214 @@
     transition: none;
   }
 }
+
+.airbnb-section {
+  background: #162731;
+  color: #edf3f5;
+  padding: 126px 8vw;
+}
+
+.airbnb-heading,
+.airbnb-benefits,
+.airbnb-investment {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.airbnb-kicker {
+  color: #63d4ff;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.airbnb-kicker::before {
+  content: "";
+  background: currentColor;
+  width: 22px;
+  height: 1px;
+}
+
+.airbnb-heading h2 {
+  letter-spacing: -0.07em;
+  max-width: 970px;
+  margin: 29px 0 0;
+  font-size: clamp(2.55rem, 4.65vw, 5.2rem);
+  font-weight: 600;
+  line-height: 0.94;
+}
+
+.airbnb-heading h2 em {
+  color: #63d4ff;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.airbnb-heading > p {
+  color: rgba(237, 243, 245, 0.68);
+  max-width: 680px;
+  margin: 27px 0 0;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.airbnb-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: rgba(99, 212, 255, 0.22);
+  border: 1px solid rgba(99, 212, 255, 0.22);
+  margin-top: 60px;
+}
+
+.airbnb-benefits article {
+  background: #0e1d27;
+  min-height: 290px;
+  padding: 30px;
+}
+
+.airbnb-benefits article > span {
+  color: #63d4ff;
+  font-family: "Playfair Display", serif;
+  font-size: 1.55rem;
+}
+
+.airbnb-benefits h3 {
+  letter-spacing: -0.04em;
+  margin: 55px 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.airbnb-benefits p {
+  color: rgba(237, 243, 245, 0.62);
+  margin: 14px 0 0;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.airbnb-investment {
+  border-left: 3px solid #63d4ff;
+  background: #203944;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 16px;
+  padding: 24px 26px;
+}
+
+.airbnb-investment strong {
+  max-width: 680px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.airbnb-investment a {
+  background: #63d4ff;
+  color: #07111f;
+  flex: 0 0 auto;
+  min-height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 0 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.region-map-card.region-map-embed {
+  background: #0e2238;
+  padding: 0;
+  overflow: hidden;
+}
+
+.region-map-embed::after {
+  display: none;
+}
+
+.region-map-embed iframe {
+  border: 0;
+  width: 100%;
+  height: 400px;
+  display: block;
+  filter: saturate(0.78) contrast(1.04);
+}
+
+.region-map-caption {
+  background: rgba(7, 17, 31, 0.93);
+  border-top: 1px solid rgba(99, 212, 255, 0.35);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px 18px;
+}
+
+.region-map-caption strong,
+.region-map-caption span {
+  display: block;
+}
+
+.region-map-caption strong {
+  color: #fff;
+  font-size: 0.82rem;
+}
+
+.region-map-caption span {
+  color: rgba(255, 255, 255, 0.62);
+  margin-top: 3px;
+  font-size: 0.67rem;
+}
+
+@media (max-width: 760px) {
+  .airbnb-section {
+    padding: 92px 24px;
+  }
+
+  .airbnb-heading h2 {
+    font-size: clamp(2.65rem, 12.5vw, 3.55rem);
+  }
+
+  .airbnb-benefits {
+    grid-template-columns: 1fr;
+    gap: 1px;
+    margin-top: 42px;
+  }
+
+  .airbnb-benefits article {
+    min-height: 0;
+    padding: 25px 22px;
+  }
+
+  .airbnb-benefits h3 {
+    margin-top: 30px;
+  }
+
+  .airbnb-investment {
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 12px;
+    padding: 22px;
+  }
+
+  .airbnb-investment a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .region-map-card.region-map-embed {
+    min-height: 380px;
+    margin-inline: -6px;
+  }
+
+  .region-map-embed iframe {
+    height: 380px;
+  }
+}
