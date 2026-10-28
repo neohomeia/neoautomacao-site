@@ -18,10 +18,17 @@
     <meta property="og:description" content="NeoHome Automação Residencial em Florianópolis e região. Projetos para iluminação, cenas, persianas e controle por aplicativo.">
     <meta property="og:image" content="https://neoautomacao.com.br/manus-storage/neohome-hero-residencia_b3c70eea.jpg">
     <meta name="twitter:card" content="summary_large_image">
-  </head>
+      <style>
+      .site-footer{grid-template-columns:auto minmax(0,1fr) auto auto}
+      .footer-security{justify-self:center;display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 16px;border:1px solid #64d6ef;border-radius:999px;background:#64d6ef;color:#07111f;font:700 .7rem/1.2 "DM Sans",sans-serif;letter-spacing:.06em;text-decoration:none;white-space:nowrap;transition:background .2s ease,transform .2s ease}
+      .footer-security:hover{background:#88e4f5;transform:translateY(-1px)}
+      @media(max-width:620px){.site-footer{grid-template-columns:1fr;gap:16px}.footer-brand{justify-self:center}.footer-security{justify-self:center;order:2}.back-top{justify-self:center;order:3}.footer-copy{order:4}}
+      @media(prefers-reduced-motion:reduce){.footer-security{transition:none}}
+    </style></head>
   <body>
     <div id="root"></div>
     <script type="module" src="/assets/neohome-reference.js"></script>
     <script type="module" src="/assets/reviews-section.js?v=f61571c"></script>
   </body>
 </html>
+
